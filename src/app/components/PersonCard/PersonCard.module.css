@@ -1,0 +1,28 @@
+
+.card {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #282828;
+    border-radius: 50px !important;
+    background-color: #282828 !important;
+}
+
+.image {
+    width: 110px !important;
+    height: 110px !important;
+    margin-top: 30px;
+    border: 5px solid #282828;
+}
+
+.primaryText {
+    font-size: 20px;
+    color: #908d96;
+}
+
+.secondaryText {
+    font-size: 14px;
+    color: #908d96;
+}
