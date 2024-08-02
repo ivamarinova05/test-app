@@ -1,6 +1,6 @@
 
 .background {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    row-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(min(30rem, 100%), 1fr));
+    grid-gap: 50px;
 }
